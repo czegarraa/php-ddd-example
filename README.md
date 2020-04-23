@@ -138,7 +138,7 @@ and its implementation [here](src/Mooc/Courses/Infrastructure/Persistence/Doctri
 You can see an example of an aggregate [here](src/Mooc/Courses/Domain/Course.php). All aggregates should
 extends the [AggregateRoot](src/Shared/Domain/Aggregate/AggregateRoot.php).
 
-### (Bug) Command Bus
+### (:D) (Bug) Command Bus
 There is 1 implementations of the [command bus](src/Shared/Domain/Bus/Command/CommandBus.php).
 1. [Sync](src/Shared/Infrastructure/Bus/Command/InMemorySymfonyCommandBus.php) using the Symfony Message Bus
 
